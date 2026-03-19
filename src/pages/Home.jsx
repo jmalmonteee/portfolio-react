@@ -1,28 +1,29 @@
 // src/pages/Home.jsx
 import React from "react";
 
-import HeroPic from "../assets/My Permanent 1x1.jpg";
+import HeroPic from "../assets/My_Permanent_1x1.jpg";
 
 // ✅ Web Developer Skills icons (from your folders)
-import HTMLIcon from "../assets/Skills/Web Developer Skills/HTML.png";
-import CSSIcon from "../assets/Skills/Web Developer Skills/CSS.png";
-import JSIcon from "../assets/Skills/Web Developer Skills/Javascript.png";
-import ReactIcon from "../assets/Skills/Web Developer Skills/React.png";
-import ViteIcon from "../assets/Skills/Web Developer Skills/Vite.png";
-import TailwindIcon from "../assets/Skills/Web Developer Skills/Tailwind CSS.png";
-import NodeIcon from "../assets/Skills/Web Developer Skills/Nodejs.png";
-import XDIcon from "../assets/Skills/Web Developer Skills/XD.png";
-import FigmaIcon from "../assets/Skills/Web Developer Skills/Figma.png";
-import SourcetreeIcon from "../assets/Skills/Web Developer Skills/Sourcetree.png";
-import GitIcon from "../assets/Skills/Web Developer Skills/GIT.png";
+import HTMLIcon from "../assets/Skills/Web_Developer_Skills/HTML.png";
+import CSSIcon from "../assets/Skills/Web_Developer_Skills/CSS.png";
+import JSIcon from "../assets/Skills/Web_Developer_Skills/Javascript.png";
+import ReactIcon from "../assets/Skills/Web_Developer_Skills/React.png";
+import ViteIcon from "../assets/Skills/Web_Developer_Skills/Vite.png";
+import TailwindIcon from "../assets/Skills/Web_Developer_Skills/Tailwind_CSS.png";
+import NodeIcon from "../assets/Skills/Web_Developer_Skills/Nodejs.png";
+import XDIcon from "../assets/Skills/Web_Developer_Skills/XD.png";
+import FigmaIcon from "../assets/Skills/Web_Developer_Skills/Figma.png";
+import SourcetreeIcon from "../assets/Skills/Web_Developer_Skills/Sourcetree.png";
+import GitIcon from "../assets/Skills/Web_Developer_Skills/GIT.png";
 
 // ✅ Photo and Video Editor Skills icons (add these PNGs later)
-import PremiereIcon from "../assets/Skills/Photo and Video Editor Skills/Adobe Premiere Pro.png";
-import DavinciIcon from "../assets/Skills/Photo and Video Editor Skills/Davinci Resolve.png";
-import CapcutIcon from "../assets/Skills/Photo and Video Editor Skills/Capcut Pro.png";
-import AfterEffectsIcon from "../assets/Skills/Photo and Video Editor Skills/Adobe After Effects.png";
-import CanvaIcon from "../assets/Skills/Photo and Video Editor Skills/Canva.png";
-import PhotoshopIcon from "../assets/Skills/Photo and Video Editor Skills/Photoshop.png";
+import PremiereIcon from "../assets/Skills/Photo_and_Video_Editor_Skills/Adobe_Premiere_Pro.png";
+import DavinciIcon from "../assets/Skills/Photo_and_Video_Editor_Skills/Davinci_Resolve.png";
+import CapcutIcon from "../assets/Skills/Photo_and_Video_Editor_Skills/Capcut_Pro.png";
+import AfterEffectsIcon from "../assets/Skills/Photo_and_Video_Editor_Skills/ADobe_after_Effects.png";
+import HandbrakeIcon from "../assets/Skills/Photo_and_Video_Editor_Skills/Handbrake.png"; // ✅ NEW
+import CanvaIcon from "../assets/Skills/Photo_and_Video_Editor_Skills/Canva.png";
+import PhotoshopIcon from "../assets/Skills/Photo_and_Video_Editor_Skills/Photoshop.png";
 
 const webDevSkills = [
   { src: HTMLIcon, title: "HTML" },
@@ -43,6 +44,7 @@ const editorSkills = [
   { src: DavinciIcon, title: "Davinci Resolve" },
   { src: CapcutIcon, title: "Capcut Pro" },
   { src: AfterEffectsIcon, title: "Adobe After Effects" },
+  { src: HandbrakeIcon, title: "Handbrake" }, // ✅ ADDED HERE
   { src: CanvaIcon, title: "Canva" },
   { src: PhotoshopIcon, title: "Photoshop" },
 ];
@@ -71,9 +73,9 @@ export default function Home() {
 
   return (
     <section
-  id="home"
-  className="relative z-10 min-h-screen w-full bg-transparent text-black dark:text-white transition-colors duration-500"
->
+      id="home"
+      className="relative z-10 min-h-screen w-full bg-transparent text-black dark:text-white transition-colors duration-500"
+    >
       <main className="w-full pt-24 sm:pt-28">
         {/* ✅ Same width as navbar (compressed center layout) */}
         <div className="mx-auto w-full max-w-[1100px] px-6">

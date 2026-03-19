@@ -1,0 +1,56 @@
+/* ✅ Imports must be FIRST */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500&display=swap");
+
+/* ✅ Tailwind v4: CONNECT YOUR CONFIG FILE (required) */
+@config "../tailwind.config.js";
+
+/* ✅ Tailwind v4 import */
+@import "tailwindcss";
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* ✅ Smooth theme transitions */
+*,
+*::before,
+*::after {
+  transition: background-color 400ms ease, color 400ms ease, border-color 400ms ease,
+    box-shadow 400ms ease;
+}
+
+/* ✅ Dark base background support */
+html.dark,
+html.dark body {
+  background: #000;
+}
+
+/* ✅ Morph animation (moving border) */
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+}
+
+.morph-blob {
+  animation: morph 4s ease-in-out infinite;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+}
+
+/* Optional: make particles a bit crisper */
+#tsparticles canvas {
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}

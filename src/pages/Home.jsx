@@ -18,9 +18,9 @@ import GitIcon from "../assets/Skills/Web_Developer_Skills/GIT.png";
 
 // ✅ Photo and Video Editor Skills icons (add these PNGs later)
 import PremiereIcon from "../assets/Skills/Photo_and_Video_Editor_Skills/Adobe_Premiere_Pro.png";
-import DavinciIcon from "../assets/Skills/Photo_and_Video_Editor_Skills/Davinci_Resolve.png";
+import DavinciIcon from "../assets/Skills/Photo_and_Video_Editor_Skills/DaVinci_Resolve.png";
 import CapcutIcon from "../assets/Skills/Photo_and_Video_Editor_Skills/Capcut_Pro.png";
-import AfterEffectsIcon from "../assets/Skills/Photo_and_Video_Editor_Skills/ADobe_after_Effects.png";
+import AfterEffectsIcon from "../assets/Skills/Photo_and_Video_Editor_Skills/Adobe_after_Effects.png";
 import HandbrakeIcon from "../assets/Skills/Photo_and_Video_Editor_Skills/Handbrake.png"; // ✅ NEW
 import CanvaIcon from "../assets/Skills/Photo_and_Video_Editor_Skills/Canva.png";
 import PhotoshopIcon from "../assets/Skills/Photo_and_Video_Editor_Skills/Photoshop.png";

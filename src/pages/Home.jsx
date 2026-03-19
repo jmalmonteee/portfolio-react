@@ -21,7 +21,7 @@ import PremiereIcon from "../assets/Skills/Photo_and_Video_Editor_Skills/Adobe_P
 import DavinciIcon from "../assets/Skills/Photo_and_Video_Editor_Skills/DaVinci_Resolve.png";
 import CapcutIcon from "../assets/Skills/Photo_and_Video_Editor_Skills/Capcut_Pro.png";
 import AfterEffectsIcon from "../assets/Skills/Photo_and_Video_Editor_Skills/Adobe_After_Effects.png";
-import HandbrakeIcon from "../assets/Skills/Photo_and_Video_Editor_Skills/Handbrake.png"; // ✅ NEW
+import HandbrakeIcon from "../assets/Skills/Photo_and_Video_Editor_Skills/HandBrake.png"; // ✅ NEW
 import CanvaIcon from "../assets/Skills/Photo_and_Video_Editor_Skills/Canva.png";
 import PhotoshopIcon from "../assets/Skills/Photo_and_Video_Editor_Skills/Photoshop.png";
 
